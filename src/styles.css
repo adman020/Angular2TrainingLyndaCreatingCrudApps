@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #D4E0E1;
+    padding-top: 5em;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#iface {
+    background: #ebf2f2;
+    width: 100%;
+}
+
+inputMessage {
+    background: #384445;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 1.6em;
+    font-weight: 300;
+    margin-bottom: 1em;
+    padding: 1.2em .7em;
+    color: #94AAAC;
+    width: 80%;
+    float: left;
+}
+
+input.submit {
+    background: 00A8B6;
+    color: #fff;
+    float: right;
+    width: 20%;
+    border: 0;
+    padding: 1.02em .7em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.details-container {
+    width: 100%;
+    background: #fff;
+    padding: 1.4em;
+    margin-bottom: 5px;
+    display: block;
+    clear: both;
+    border-left: 6px solid #00A8B6;
+}
+
+.details-container p {
+    margin-bottom: 0;
+}
+
+button {
+    background: #d4e0e1;
+    color: #465057;
+    padding: 10px;
+    width: auto;
+    margin: 0;
+    font-size: .8em;
+    float: right;
+    margin-left: 20px;
+
+}
